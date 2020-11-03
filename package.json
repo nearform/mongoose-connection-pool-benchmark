@@ -1,0 +1,22 @@
+{
+  "name": "mongoose-connection-pool-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "fastify start . --",
+    "create:data": "curl -X POST http://localhost:3000/models",
+    "autocannon": "autocannon http://localhost:3000/models"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^6.5.0",
+    "fastify": "^3.7.0",
+    "fastify-cli": "^2.5.1",
+    "fastify-mongoose": "^0.3.0",
+    "fastify-plugin": "^3.0.0",
+    "mongoose": "^5.10.11"
+  }
+}
