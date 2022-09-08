@@ -14,7 +14,7 @@
   "dependencies": {
     "autocannon": "^6.5.0",
     "fastify": "^3.7.0",
-    "fastify-cli": "^2.5.1",
+    "fastify-cli": "^2.15.0",
     "fastify-mongoose": "^0.3.0",
     "fastify-plugin": "^3.0.0",
     "mongoose": "^5.10.11"
