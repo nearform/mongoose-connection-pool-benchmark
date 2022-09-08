@@ -17,6 +17,6 @@
     "fastify-cli": "^2.5.1",
     "fastify-mongoose": "^0.3.0",
     "fastify-plugin": "^3.0.0",
-    "mongoose": "^5.10.11"
+    "mongoose": "^5.13.15"
   }
 }
